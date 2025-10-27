@@ -1,0 +1,96 @@
+body {
+  background-color: #23252C;
+  display: flex;
+  /* border: solid blue; */
+  justify-content: center;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 400;
+}
+
+.app-div {
+  /* border: solid red; */
+  
+  border-radius: 20px;
+
+  margin: 0 auto;
+  max-width: 350px;
+  background-color: #1A1B21;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 350px;
+  height: 370px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.description-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid green; */
+}
+
+.description-title {
+  text-align: center;
+  color: #F3BF99;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-button input {
+  width: 280px;
+  height: 40px;
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #5093E2;
+  color: white;
+  font-weight: 700;
+}
+
+
+
+
+.about-component {
+  /* border: solid yellow; */
+  /* padding: 30px; */
+  padding-left: 35px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+}
+
+.interests-component {
+  /* border: solid orange; */
+  padding-left: 35px;
+  padding-right: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.footer-container {
+  display: flex;
+  background-color: #161619;
+  height: 64px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.footer-container img {
+  width: 30px;
+  color: white;
+  filter: invert(98%) sepia(7%) saturate(59%) hue-rotate(219deg) brightness(115%) contrast(91%);
+
+
+}
